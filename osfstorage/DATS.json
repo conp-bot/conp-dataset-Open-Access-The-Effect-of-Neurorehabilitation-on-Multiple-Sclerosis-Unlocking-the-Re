@@ -1,0 +1,294 @@
+{
+  "title": "The Effect of Neurorehabilitation on Multiple Sclerosis",
+  "description": "Multiple sclerosis is a severe neurodegenerative condition that significantly affects the motor and cognitive abilities of patients. However, the mechanisms of the disease are not yet fully understood. It has been hypothesized that regular neurorehabilitation may stimulate brain plasticity mechanisms and thus slow the progression of the disease. Indeed, studies reported evidence of the positive effect of neurorehabilitation on functional reorganization. However, this research is currently limited to mostly small datasets, which raises concerns about wider interpretation and generalization of results. We aim to contribute to this field of research by sharing the resting-state fMRI time-series data of sixty multiple sclerosis patients before and after neurorehabilitation treatment. fMRI is a well-established modality for studying neurological conditions, allowing for a broad spectrum of analytical approaches and, therefore, benefits for the wider scientific community. We believe the publication of this dataset will promote research and improve the reproducibility of future reports.",
+  "identifier": {
+    "identifier": "",
+    "identifierSource": ""
+  },
+  "dates": [
+    {
+      "date": "2021-01-25 00:00:00",
+      "type": {
+        "value": "first published"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "name": "Institute of Computer Science of the Czech Academy of Sciences",
+      "abbreviation": "ICS"
+    },
+    {
+      "name": "National Institute of Mental Health, Klecany, Czech Republic",
+      "abbreviation": "NIMH"
+    },
+    {
+      "name": "Third Faculty of Medicine, Charles University, Prague, Czech Republic"
+    }
+  ],
+  "types": [
+    {
+      "information": {
+        "value": "ILX:0779125"
+      }
+    },
+    {
+      "information": {
+        "value": "ILX:0778718"
+      }
+    }
+  ],
+  "version": "1.3",
+  "privacy": "open",
+  "licenses": [
+    {
+      "name": "CC BY"
+    }
+  ],
+  "distributions": [
+    {
+      "formats": [
+        "MIME"
+      ],
+      "size": 27.5,
+      "unit": {
+        "value": "GB"
+      },
+      "access": {
+        "landingPage": "https://www.frontiersin.org/articles/10.3389/fnins.2021.662784/full",
+        "authorizations": [
+          {
+            "value": "public"
+          }
+        ]
+      }
+    }
+  ],
+  "primaryPublications": [
+    {
+      "title": "Open Access: The Effect of Neurorehabilitation on Multiple Sclerosis – Unlocking the Resting-State fMRI Data",
+      "publicationVenue": "Frontiers in Neuroscience",
+      "authors": [
+        {
+          "fullName": "Barbora Bučková",
+          "firstName": "Barbora",
+          "middleInitial": "",
+          "lastName": "Bučková",
+          "affiliations": [
+            {
+              "name": "Department of Cybernetics, Faculty of Electrical Engineering, Czech Technical University in Prague, Prague, Czechia"
+            },
+            {
+              "name": "Department of Complex Systems, Institute of Computer Science of the Czech Academy of Sciences, Prague, Czechia"
+            },
+            {
+              "name": "Department of Applied Neuroscience and Neuroimaging, National Institute of Mental Health, Klecany, Czechia"
+            }
+          ]
+        },
+        {
+          "fullName": "Jakub Kopal",
+          "firstName": "Jakub",
+          "middleInitial": "",
+          "lastName": "Kopal",
+          "affiliations": [
+            {
+              "name": "Department of Complex Systems, Institute of Computer Science of the Czech Academy of Sciences, Prague, Czechia"
+            },
+            {
+              "name": "Department of Computing and Control Engineering, University of Chemistry and Technology, Prague, Czechia"
+            }
+          ]
+        },
+        {
+          "fullName": "Kamila Řasová",
+          "firstName": "Kamila",
+          "middleInitial": "",
+          "lastName": "Řasová",
+          "affiliations": [
+            {
+              "name": "Third Faculty of Medicine, Charles University, Prague, Czechia"
+            }
+          ]
+        },
+        {
+          "fullName": "Jaroslav Tintěra",
+          "firstName": "Jaroslav",
+          "middleInitial": "",
+          "lastName": "Tintěra",
+          "affiliations": [
+            {
+              "name": "Department of Applied Neuroscience and Neuroimaging, National Institute of Mental Health, Klecany, Czechia"
+            },
+            {
+              "name": "Radiodiagnostic and Interventional Radiology Department, Institute for Clinical and Experimental Medicine, Prague, Czechia"
+            }
+          ]
+        },
+        {
+          "fullName": "Jaroslav Hlinka",
+          "firstName": "Jaroslav",
+          "middleInitial": "",
+          "lastName": "Hlinka",
+          "affiliations": [
+            {
+              "name": "Department of Complex Systems, Institute of Computer Science of the Czech Academy of Sciences, Prague, Czechia"
+            },
+            {
+              "name": "Department of Applied Neuroscience and Neuroimaging, National Institute of Mental Health, Klecany, Czechia"
+            }
+          ]
+        }
+      ],
+      "dates": [
+        {
+          "date": "2021-05-28 00:00:00",
+          "type": {
+            "value": "published"
+          }
+        }
+      ],
+      "identifier": {
+        "identifier": "10.3389/fnins.2021.662784",
+        "identifierSource": "doi"
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "name": {
+        "value": "FC"
+      },
+      "description": "Contains functional connectivity matrices as *.csv for each subject and visit. Also contains file AAL_labels.csv with labels of AAL atlas regions."
+    },
+    {
+      "name": {
+        "value": "nifti"
+      },
+      "description": "The directory contains CONN preprocessed fMRI time-series. Each subject was recorded twice - before and after neuroproprioceptive \"facilitation and inhibition\" treatment."
+    },
+    {
+      "name": {
+        "value": "quality measures"
+      },
+      "description": "Contains files with the appropriate displacement measures for each subject and visit."
+    }
+  ],
+  "acknowledges": [
+    {
+      "name": "Grants",
+      "funders": [
+        {
+          "name": "Czech Academy of Sciences program Strategy AV21 Hopes and Risks of the Digital Age",
+          "abbreviation": "CAS AV21"
+        },
+        {
+          "name": "Kralovske Vinohrady University Hospital–FNKV IN 00064173",
+          "abbreviation": "MH CZ–DRO 00064173"
+        },
+        {
+          "name": "Institute for Clinical and Experimental Medicine–IKEM, IN 00023001",
+          "abbreviation": "MH CZ–DRO 00023001"
+        },
+        {
+          "name": "Czech Technical University Internal Grant Agency SGS19/169/OHK3/3T/13",
+          "abbreviation": "CTU SGS19/169/OHK3/3T/13"
+        },
+        {
+          "name": "Charles University (112616/GAUK/2016, 260388/SVV/2019, Q35, Q37, Q41)",
+          "abbreviation": "CU (112616/GAUK/2016, 260388/SVV/2019, Q35, Q37, Q41)"
+        },
+        {
+          "name": "Czech Science Foundation project No. 13-23940S",
+          "abbreviation": "CSF 13-23940S"
+        },
+        {
+          "name": " Ministry of Health Czech Republic – DRO 2021 – National Institute of Mental Health 00023752",
+          "abbreviation": "NIMH 00023752"
+        },
+        {
+          "name": "Institute of Computer Science of the Czech Academy of Sciences 67985807",
+          "abbreviation": "ICS 67985807"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "value": "fMRI"
+    },
+    {
+      "value": "Data"
+    },
+    {
+      "value": "Functional Connectivity"
+    },
+    {
+      "value": "Multiple Sclerosis"
+    },
+    {
+      "value": "Neurorehabilitation"
+    },
+    {
+      "value": "Open Access"
+    }
+  ],
+  "extraProperties": [
+    {
+      "category": "subjects",
+      "values": [
+        {
+          "value": "60"
+        }
+      ]
+    },
+    {
+      "category": "files",
+      "values": [
+        {
+          "value": "132"
+        }
+      ]
+    },
+    {
+      "category": "CONP_status",
+      "values": [
+        {
+          "value": "external"
+        }
+      ]
+    },
+    {
+      "category": "origin_city",
+      "values": [
+        {
+          "value": "Prague"
+        }
+      ]
+    },
+    {
+      "category": "origin_country",
+      "values": [
+        {
+          "value": "Czech Republic"
+        }
+      ]
+    },
+    {
+      "category": "logo",
+      "values": [
+        {
+          "value": "logo.png"
+        }
+      ]
+    },
+    {
+      "category": "contact",
+      "values": [
+        {
+          "value": "Jaroslav Hlinka, hlinka@cs.cas.cz"
+        }
+      ]
+    }
+  ]
+}
